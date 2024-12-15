@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}	
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.42857143;
+}
+a {
+	color: #4b64ff;
+	text-decoration: none;
+}
+sup {
+	cursor: default;
+	top: -0.5em;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+td {
+	padding: 0;
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+}
+.pre-scrollable {
+	max-height: 340px;
+	max-width: 700px;
+	overflow-y: scroll
+}
+#header {
+	background-color: black;
+}
+#header img {
+	max-width: 1100px; 
+	max-height: 650px;
+	width: 100%; 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block; 
+	padding: 24px 10px; 
+	object-fit: contain;
+}
+#collection {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#collectionContent {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#collectionContent h1 {
+	font-weight: normal;
+	margin-bottom: 0;
+	line-height: 33px;
+}
+#collectionContent .subheader {
+	margin-bottom: 16px;
+}
+#collectionContent table {
+	border-collapse: collapse;
+	border: 0;
+}
+#collectionContent table.titleList {
+	border: 0;
+}
+#collectionContent table.titleList td,
+#collectionContent table.titleList th {
+	border: 1px solid gray;
+}
+#collectionContent table.titleList tr.sectionGap th {
+	border: 0;
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 12px;
+	padding-top: 16px;
+}
+.flex-container .item {
+	margin: 4px;
+	text-align: center;
+	width: 134px;
+}
+.flex-container .item img {
+	width: 130px;
+	height: 130px
+}
+.flex-container .item .label {
+	padding: 4px;
+	padding-top: 0px;
+	height: 45px;
+	display: grid;
+}
