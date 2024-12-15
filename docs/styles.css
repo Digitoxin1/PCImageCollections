@@ -96,6 +96,5 @@ hr {
 .flex-container .item .label {
 	padding: 4px;
 	padding-top: 0px;
-	height: 45px;
 	display: grid;
 }
