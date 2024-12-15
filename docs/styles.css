@@ -41,11 +41,13 @@ hr {
 }
 #header img {
 	max-width: 1100px; 
+	max-height: 650px;
+	width: 100%; 
 	margin-left: auto; 
 	margin-right: auto; 
 	display: block; 
 	padding: 24px 10px; 
-	object-fit: scale-down;
+	object-fit: contain;
 }
 #collection {
 	max-width: 1100px;
@@ -97,4 +99,16 @@ hr {
 	padding: 4px;
 	padding-top: 0px;
 	display: grid;
+}
+.flex-container .item img.cd {
+	background-image: url("assets/cd.jpg");
+	background-size: cover;
+}
+.flex-container .item img.floppy {
+	background-image: url("assets/floppy.jpg");
+	background-size: cover;
+}
+.flex-container .item img.both {
+	background-image: url("assets/floppy_cd.jpg");
+	background-size: cover;
 }
